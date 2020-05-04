@@ -1,0 +1,153 @@
+body {
+    background-color: #6B6A6A;
+    font-family: Roboto;
+}
+#gradient {
+  /* width:100%; 
+  background:
+    linear-gradient(
+      to right, 
+      blue, #2bd
+    );*/
+}
+
+
+#colorA, #colorB, .inarrow {
+	font-size: 30pt;
+}
+
+textarea {
+    resize: none;
+    border: 0px;
+    outline: none;
+}
+
+#newGradient{
+    font-family: Roboto;
+    /* color: black; */
+    font-size:14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.colorc{
+    padding:10px;
+    cursor:pointer;
+    position: absolute;
+    font-family: Roboto;
+    text-align:center;
+    background-color: #fff;
+    color: black;
+    width:400px;
+    border-radius:30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    height:30px;
+    top:40%;
+    left:50%;
+    margin-top:-15px;
+    margin-left:-200px;
+    /* border: 2px solid black; */
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+.colorc:hover {
+    background-color: black;
+    padding: -10px;
+    color: white;
+    /* border: 5px solid blue; */
+    box-shadow: none;
+    /* border: 2px solid #111111; */
+    transition: all 0.1s;
+}
+
+.color2{
+    padding:20px;
+    position: absolute;
+    font-family: Roboto;
+    text-align:center;
+    background-color: #fff;
+    color: #e91e63;
+    width:380px;
+    border-radius:30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    height:60px;
+    top:50%;
+    left:50%;
+    margin-top:-15px;
+    margin-left:-200px;
+    font-size:12px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.selected {
+    opacity: 0;
+}
+
+#copyGradient {
+    transition: all 0.1s;
+}
+
+#copy {
+    font-size: 20px;
+    padding: 5px;
+    float: right;
+    /* color: black; */
+}
+
+#copy:hover {
+    color: rgb(6, 176, 102);
+}
+
+#copybtn {
+    float: right;
+    top: -30px;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.unselectable {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
