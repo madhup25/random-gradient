@@ -2,14 +2,15 @@ body {
     background-color: #6B6A6A;
     font-family: Roboto;
 }
-#gradient {
-  /* width:100%; 
-  background:
+
+/* #gradient {
+  width:100%; 
+  background-image:
     linear-gradient(
       to right, 
       blue, #2bd
-    );*/
-}
+    );
+} */
 
 
 #colorA, #colorB, .inarrow {
